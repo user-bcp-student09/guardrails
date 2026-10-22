@@ -4,7 +4,7 @@ from graph.state import WorkflowState
 from graph.context import _ctx, _runs, _const_block, _ronda, _feedback_block
 
 
-INSTRUCTIONS = 'Eres un desarrollador frontend/API senior. Realiza la tarea de tu rol.\n'
+INSTRUCTIONS = 'Implementa la interacción y el consumo de API, con estados de carga, vacío, error y accesibilidad.\n'
 
 
 def frontend_node(state: WorkflowState, invoke) -> dict:
